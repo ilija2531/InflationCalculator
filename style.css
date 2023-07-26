@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-image: url(img/slika.jpg);
+        font-family:'Kanit', sans-serif;
+        color:blue;
+     
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2{
+    margin-bottom: 15px;
+
+}
+
+h3 {
+        margin-bottom: 15px;
+}
+
+.background-overlay {
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 50px;
+        width: 100%;
+        height: 100vh;
+}
+
+.container{
+        max-width: 800px;
+        margin: auto;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 20px;
+}
+
+.container input{
+        max-width: 100px;
+        height: 40px;
+        font-size: 18px;
+        text-align: center;
+}
+
+.container button {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: coral;
+        border-radius: 10px;
+}
+
+.tekst {
+        font-size: 15px;
+        font-weight: bold;
+}
